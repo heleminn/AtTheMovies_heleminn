@@ -1,0 +1,493 @@
+html, body{
+    margin: 0px; 
+    padding: 0px; 
+    overflow-x: hidden;    
+}
+
+/*header*/
+.header{
+    height: 360px;
+    background-color: #A7211A;
+    /*background-color: darkgray; */
+    background: url(https://static.turbosquid.com/Preview/2015/03/27__12_52_46/TheaterSeats01.jpga765d527-c607-4cc6-b041-5cab037f0eacOriginal.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+h1{
+    color:white;
+    padding-left: 150px; 
+    padding-top: 70px; 
+    padding-bottom: 30px; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600; 
+}
+
+h2{
+    color:white;
+    padding-left: 150px;
+    padding-bottom: 30px;  
+    border-bottom: 4px solid white; 
+    display: inline-block;
+    width: 80%; 
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+/* tekstopmaak */
+
+h3{
+    font-size: 34px; 
+    padding-bottom: 20px; 
+    border-bottom: 2px solid black; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600; 
+    z-index: 2; 
+    
+}
+
+h4 {
+    font-size: 34px; 
+    padding-bottom: 20px; 
+    border-bottom: 2px solid black; 
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+/* h4 ondertitel */
+
+em{
+    font-style: normal; 
+    font-size: 32px; 
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+h5{
+    font-size: 22px; 
+    padding-top: 20px; 
+    padding-bottom: 20px;  
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+h6{
+    font-size: 16px; 
+    padding-bottom: 20px; 
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+/* Pirates tekstvlak */
+
+.tekst{
+    margin-top: -630px;
+    
+}
+
+.tekst_2{
+    margin-top: -630px;
+
+}
+
+.piratesheading{
+    font-size: 22px; 
+    padding-top: 5px; 
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+.piratesheading_2{
+    font-size: 22px; 
+    padding-top: 5px; 
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+/* kolommen tegen elkaar zonder witruimte */
+
+.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+.col-md-6{
+    padding-left:0px;
+    padding-right: 0px; 
+}
+ 
+/* Grote pirates afbeelding */
+
+.pirates_img{
+    object-fit: cover; 
+    z-index: -2;
+    
+}
+
+.film1{
+
+    height: 100%; 
+    margin-bottom: -40px; 
+    margin-top: 160px; 
+    width: 115%; 
+    z-index: -2; 
+    box-shadow: -60px -60px rgba(246,181,91,0.4);
+  
+}
+
+/* Andere afbeeldingen */
+
+.card_img
+{
+    /*background-color: darkgray; */
+    object-fit: cover;
+    position: relative;
+}
+
+.img
+{
+    height: 550px; 
+    object-fit: cover;
+   
+}
+
+.film2{
+    object-fit: cover; 
+    width: 100%;
+    height: 100%; 
+    box-shadow: -60px -60px rgba(197,154,75,0.4);
+   
+}
+
+.film3{
+    object-fit: cover; 
+    width: 100%;
+    height: 100%;  
+    box-shadow: 60px -60px rgba(227,240,233,0.7); 
+}
+
+
+.film4{
+    object-fit: cover; 
+    width: 100%;
+    height: 100%; 
+    box-shadow: -60px -60px rgba(138,170,147,0.4);
+}
+
+.film5{
+    object-fit: cover; 
+    width: 100%;
+    height: 100%; 
+    box-shadow: 60px -60px rgba(173,123,60,0.3); 
+}
+
+/* Achtergrond en opmaak artikels */
+
+article {
+    padding: 30px; 
+    padding-bottom: 60px;
+}
+
+/* Datum */
+
+strong{
+    position: absolute; 
+    right: 50px;
+    font-weight: 500; 
+}
+
+/* Knop */
+
+button{
+    width: 160px; 
+    height: 72px; 
+    border-radius: 10px; 
+    border: 1px solid rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.25); 
+}
+
+.buynow:hover {
+    background-color: rgba(0,0,0,0.1); 
+}
+
+.buynow{
+    position: absolute;
+    bottom: 50px; 
+    right: 50px; 
+    font-weight: 600; 
+    font-size: 22px; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;  
+}
+
+a{
+    color:white; 
+}
+
+a:hover{
+    color: black; 
+    text-decoration: none; 
+}
+
+.one{
+    background-color: #8E1C14;
+    color: white; 
+    bottom: 220px; 
+    width: 180px; 
+    height: 81px; 
+}
+
+.two{
+    background-color:#DA690C;
+    color: white; 
+}
+
+.three{
+    background-color:#0E2A38;
+    color: white;
+}
+
+.four{
+    background-color:#223136;
+    color: white;
+}
+
+.five{
+    background-color: #AD7B3C;
+    color: white;
+   
+}
+/*footer*/
+
+footer{
+    background-color: #A7211A;
+    padding: 40px;
+    margin-top: 160px; 
+    color: white; 
+    font-family: 'Chakra Petch', sans-serif;
+   
+}
+.artevelde{
+    width: auto;
+    height: 60px; 
+    position: absolute;
+    bottom: 20px; 
+    right: 60px; 
+}
+
+/* article loopt over rechts*/
+
+body {overflow-x:hidden}
+
+.pirates {
+    border: 0px;
+    background: #F6B55B;
+    /*background: darkgray; */
+    position: relative;
+    height: 550px; 
+    margin-bottom: 160px;   
+   
+}
+
+.pirates:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:80%;
+    right:-3000px;
+    background:#F6B55B;
+    /*background: darkgray; */
+    z-index: 0;
+    
+}
+
+.lordoftherings {
+    border: 0px;
+    background: #C59A4B;
+    /*background: darkgray; */
+    position: relative;
+    height: 550px;
+    margin-bottom: 160px; 
+}
+
+.lordoftherings:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:80%;
+    right:-3000px;
+    background:#C59A4B;
+    /*background: darkgray; */
+    z-index: -1;
+    
+}
+
+.thekingsspeech {
+    border: 0px;
+    background: #8AAA93;
+    /*background: darkgray; */
+    position: relative;
+    height: 550px; 
+  
+    margin-bottom: 160px; 
+}
+
+.thekingsspeech:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:80%;
+    right:-3000px;
+    background: #8AAA93;
+    /*background: darkgray; */
+    z-index: -1;
+}
+
+/* article loopt over links */
+
+.sherlockholmes{
+    border: 0px;
+    background: #D8EBE5;
+    /*background: darkgray; */
+    position: relative;
+    height: 550px; 
+  
+    margin-bottom: 160px; 
+}
+
+.sherlockholmes:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:80%;
+    left:-3000px;
+    background: #D8EBE5;
+    /*background: darkgray; */
+    z-index: -1;
+}
+
+.themanintheironmask{
+    border: 0px;
+    background: #C8B08F;
+    /*background: darkgray; */
+    position: relative;
+    height: 550px;
+   
+}
+.themanintheironmask:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:80%;
+    left:-3000px;
+    background: #C8B08F;
+    /*background: darkgray; */
+    z-index: -1;
+}
+
+/*mediaqueries */
+
+
+@media (max-width: 575.98px) {  
+
+
+    .film1{
+        box-shadow: none; 
+        margin-top: -1px; 
+    }
+
+    .pirates{
+        height: 720px; 
+    }
+
+    .film2{
+        box-shadow: none; 
+        margin-top: -120px; 
+    }
+
+    .lordoftherings{
+        height: 620px; 
+        margin-top: -120px; 
+    }
+
+    .film3{
+        box-shadow: none; 
+        margin-top: -1280px;
+       
+    }
+
+    .sherlockholmes{
+        position: relative;
+        bottom:-420px; 
+        height: 620px; 
+    }
+
+    .film4{  
+        box-shadow: none;
+        margin-top: -250px;
+    }
+
+    .thekingsspeech{
+        height: 620px; 
+        margin-top: -280px;
+    }
+
+    .film5{
+        box-shadow: none;
+        margin-top: -950px; 
+    }
+
+    .themanintheironmask{
+        position: relative;
+        bottom:-420px; 
+        height: 620px; 
+    }
+
+    button{
+        width: 320px; 
+        height: 80px; 
+        border-radius: 10px; 
+        z-index: 2;
+        border: 1px solid rgba(0,0,0,0.1); 
+    }
+    
+    .buynow:hover {
+        background-color: rgba(0,0,0,0.1);
+        
+       
+    }
+
+    footer
+    {
+        margin-top: -100px; 
+    }
+   
+    h1,h2{
+
+        padding-left: 40px; 
+    }
+    h3{
+        font-size: 34px;  
+    }
+
+    .piratesheading{
+       
+        font-size: 22px;
+        margin-bottom: 30px; 
+        margin-top:-110px; 
+       
+    }
+    .piratesheading_2{
+        font-size: 22px; 
+        margin-top: -7px; 
+    }
+
+}
+
