@@ -456,17 +456,32 @@ body {overflow-x:hidden}
         border-radius: 10px; 
         z-index: 2;
         border: 1px solid rgba(0,0,0,0.1); 
+        margin-right: 42px; 
     }
     
     .buynow:hover {
-        background-color: rgba(0,0,0,0.1);
-        
-       
+        background-color: rgba(0,0,0,0.1);  
+    }
+
+    .one{
+        width: 320px; 
+        height: 80px; 
+    }
+    .pirates:after{
+        background: none; 
     }
 
     footer
     {
         margin-top: -100px; 
+    }
+
+    .artevelde{
+        width: auto;
+        height: 34px; 
+        position: absolute;
+        bottom: 32px; 
+        right: 40px; 
     }
    
     h1,h2{
@@ -481,12 +496,12 @@ body {overflow-x:hidden}
        
         font-size: 22px;
         margin-bottom: 30px; 
-        margin-top:-110px; 
+        margin-top:-100px; 
        
     }
     .piratesheading_2{
         font-size: 22px; 
-        margin-top: -7px; 
+        margin-top: -28px; 
     }
 
 }
